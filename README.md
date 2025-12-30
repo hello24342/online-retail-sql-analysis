@@ -5,6 +5,7 @@ This project analyzes an online retail dataset to understand customer behavior, 
 
 ## Dataset
 Source: https://www.kaggle.com/datasets/tunguz/online-retail
+Rows: 541k raw, ~300k after cleaning
 
 ## Setup
 - Removed rows with invalid product IDs (e.g. postage, manual adjustments)
