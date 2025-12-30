@@ -1,4 +1,4 @@
-/* Top cutomers by total revenue */
+/* Top customers by total revenue */
 SELECT
     customers.customer_id,
     SUM(transactions.revenue) AS total_revenue,
@@ -43,5 +43,6 @@ SELECT
 FROM transactions t
 GROUP BY t.country
 ORDER BY total_revenue DESC;
+
 
 
